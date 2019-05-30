@@ -11,12 +11,12 @@
 }*/
 nav ul li{
 	background-color:#f3f3f3;
-	width: 220px;
-	height: 40px;
+	width: 250px;
+	height: 50px;
 	float: left;
 	text-align: center;
 	border: 2px solid green;
-	font-size: 25px;
+	font-size: 30px;
 	/*display: inline;*/
 }
 
@@ -28,10 +28,11 @@ nav ul li:hover {
 }
 
 nav ul li a{
-	font-size: 25px;
+	font-size: 30px;
 	text-decoration: none;
 	color: #000;
 	list-style: none;
+	font-weight: bold;
 }
 
 nav ul li:hover a{
@@ -209,7 +210,7 @@ img{
 	height: 50px;
 	width: 60%;
 	font-size:25px;
-	background:yellow;
+	background:lightyellow;
 	/*border: none;*/
 	border: 2px solid black;
 }
@@ -242,6 +243,11 @@ img{
 	width: 60%;
 	font-size: 25px;
 	background-color: purple;
+	color: white;
+}
+
+#loginbutton li a{
+	text-decoration: none;
 	color: white;
 }
 
