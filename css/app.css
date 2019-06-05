@@ -10,35 +10,35 @@
 
 }*/
 nav ul li{
-	background-color:#f3f3f3;
-	width: 250px;
-	height: 50px;
+	background-color: #f3f3f3;
+	width: 220px;
+	height: 40px;
 	float: left;
+	list-style: none;
 	text-align: center;
 	border: 2px solid green;
-	font-size: 30px;
+	font-size: 25px;
 	/*display: inline;*/
 }
 
 nav ul li:hover {
-	background-color: #333;
+	background-color: indigo;
 	/*color: white;*/
 	/*list-style: none;*/
 	/*text-decoration: none;*/
 }
 
-nav ul li a{
-	font-size: 30px;
-	text-decoration: none;
-	color: #000;
-	list-style: none;
-	font-weight: bold;
-}
-
 nav ul li:hover a{
 	/*background-color: indigo;*/
 	color: white;
+	list-style: none;
 	text-decoration: none;
+}
+
+nav ul li a{
+	font-size: 25px;
+	text-decoration: none;
+	color: #000;
 }
 
 nav ul li a ul li a{
@@ -46,7 +46,6 @@ nav ul li a ul li a{
 	font-size: 25px;
 	text-decoration: none;
 	color: #000;
-	list-style: none;
 }
 
 nav ul li:hover ul {
@@ -63,10 +62,12 @@ nav ul li:hover ul {
 }
 .title2 {
 	text-align: center;
+	margin: 0px;
+	padding: 0px;
 	color: white;
 	font-weight: bold;
-	font-size: 40px;
-	height: 200px;
+	font-size: 35px;
+	/*height: 200px;*/
 }
 
 .box1 {
@@ -86,24 +87,16 @@ nav ul li:hover ul {
 
 }
 
-.category li a {
-	color: #000;
-	text-decoration: none;
-}
-
 .category:hover {
 	border: 2px solid white;
 	background-color: brown;
-}
-
-.category:hover li a {
 	color: white;
-	text-decoration: none;
 }
 
 #categ {
 	display: inline-block;
 	text-align: center;
+	margin-top: 50px;
 }
 
 .candTitle {
@@ -155,32 +148,44 @@ nav ul li:hover ul {
 	background-color: green;
 }
 
-.vote {
-	display: inline-block;
-	text-align: right;
+/*.vote {
+	float: right;
 }
 
 #vote {
+	float: right;
 	height: 50px;
 	width: 15%;
-	/*display: inline-block;*/
 	text-align: center;
 	background-color: brown;
 	color: white;
 	font-size: 24px;
 	border-radius: 0 0 20px 20px; 
+}*/
+#vote {
+	display: inline-block;
+	float: right;
+	background-color: brown;
+	border:2px solid #f3f3f3;
+	color: white;
+	height: 50px;
+	width: 15%;
+	font-size: 25px;
+
+
 }
 
 .emptyTitle {
 	background-image: url(../image/nkuruma.jpg);
 	
 	background-repeat: no-repeat;
-	background-size: contain;
+	/*background-size: contain;*/
 	background-size: cover;
 }
 
 .empty {
-	height: 200px;
+	margin-bottom: 70px;
+	/*height: 200px;*/
 	/*background-image: url(../image/index.jpg);*/
 	/*background-size: contain;*/
 	/*background-image: url(image/index.jpg);
@@ -210,7 +215,7 @@ img{
 	height: 50px;
 	width: 60%;
 	font-size:25px;
-	background:lightyellow;
+	background:yellow;
 	/*border: none;*/
 	border: 2px solid black;
 }
@@ -229,13 +234,25 @@ img{
 	border-radius: 10px;
 }
 
+#registerloginbutton {
+	background-color: brown;
+}
+
+.batani li a {
+	color: white;
+}
+
+.batani li:hover a {
+	text-decoration: none;
+}
+
 #loginpage {
 	border: 5px brown;
 	border-radius: 0 0 20px 20px;
 	box-shadow: 10px 10px black;
 	background-color: lightgreen;
-	margin-top: 70px;
-	height: 400px;
+	/*margin-top: 70px;*/
+	/*height: 400px;*/
 }
 
 #loginbutton {
@@ -243,36 +260,19 @@ img{
 	width: 60%;
 	font-size: 25px;
 	background-color: purple;
-	color: white;
-}
-
-#loginbutton li a{
-	text-decoration: none;
-	color: white;
-}
-
-.button-round {
-	border-radius: 15px;
-}
-#registerloginbutton {
-	height: 50px;
-	width: 60%;
-	background-color: brown;
-	margin-top: 10px;
-}
-
-#registerloginbutton li a {
-	font-size: 25px;
-	color: white;
+	color: black;
 	list-style: none;
-	text-decoration: none;
+}
+
+#loginbutton li a {
+	list-style: none;
 }
 
 .userpass {
-	width: 80%;
+	width: 60%;
 	font-size: 20px;
 	background-color: white;
-	padding: 0 30px 0 0;
+	/*padding: 0 30px 0 0;*/
 }
 
 #registerhere {
@@ -291,10 +291,16 @@ img{
 	height: 100px;
 	border:2px solid white;
 	margin-top: 30px;
+	margin-bottom: 30px;
 	text-align: center;
 	padding: 30px 0 0 0;
 	border-radius: 15px 15px 0 0;
 	color: white;
+}
+
+.note {
+	margin-left: 50px;
+	margin-bottom: 10px;
 }
 
 .login {
@@ -306,14 +312,58 @@ img{
 .home {
 	border: 2px solid black;
 	background:#f3f3f3;
-	height: 600px;
+	/*height: 600px;*/
 	margin:20px 0 0 0;
 }
 
-.welcome div div div h3 {
-	font-size: 40px;
+.home h2 {
 	font-weight: bold;
-	margin-top: 20px;
+	font-size: 35px;
 	text-align: center;
+}
+
+.home h3{
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.home p {
+	font-size: 25px;
+	/*font-style: italic;*/
+}
+
+.footer {
+	background-color: none;
+	height: 50px;
+	margin-top: 50px;
+}
+
+.footer div h2 {
+	text-align: center;
+}
+
+.category li {
+	list-style: none;
+}
+
+.category li a {
+	color: #333;
+	text-decoration: none;
+}
+
+.category li a:hover {
+	color: white;
+}
+
+.cut-line {
+	border-bottom: 10px solid white;
+}
+
+* h4 {
+	font-size: 30px;
+}
+
+* p {
+	font-size: 22px;
 }
 

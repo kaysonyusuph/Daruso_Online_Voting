@@ -12,19 +12,20 @@
 	<div class="row">
 		<div class="col-12 emptyTitle">
 			<div class="row">
-				<div class="col-10 offset-1 title">
-					<div class="row">
-						<div class="col-2">
-							<div class="col-2">
+				<div class="col-12 col-sm-10 offset-sm-1 title">
+					<div class="row no-gutters">
+						<div class="col-xl-2 col-sm-6 col-6  order-xl-1  order-sm-1 order-1">
+							<!-- <div class="col-2"> -->
 								<img src="image/udsm.jpg" height="200" width="200" style="float: left;">
-							</div>
+							<!-- </div> -->
+
 						</div>
-						<div class="col-8">
+						<div class="col-xl-8 col-sm-12   order-xl-2  order-sm-3 order-3 col-12">
 							<div class="row title2">
 								<div class="col-12">
 									UNIVERSITY OF DAR ES SALAAM
 								</div>
-								<div class="col-12">
+								<div class="col-10 offset-1">
 									DAR ES SALAAM UNIVERSITY STUDENTS ORGANISATION
 								</div>
 								<div class="col-12">
@@ -32,7 +33,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-2">
+						<div class="col-xl-2 col-sm-6 col-6  order-xl-3 order-sm-2 order-2">
 							<div class="col-12">
 								<img src="image/daruso.jpg" height="200" width="200" style="float: right;">
 						</div>
@@ -50,14 +51,14 @@
 			<div class="row empty">
 				<div class="col-12">
 					<div class="row">
-						<div class="col-8 offset-2 navbox">
+						<div class="col-12 col-md-8 offset-md-2">
 							<!-- <div class="row"> -->
 								<!-- <div class="col"> -->
 							<nav>
 								<ul>
 									<li><a href="home.html">Home</a></li>
 									<li><a href="PresidentElection.html">Vote</a></li>
-									<li><a href="Result.html">Results</a></li>
+									<li><a href="PresidentResult.html">Results</a></li>
 									<li><a href="#">MyAccount</a></li>
 									<li><a href="index.html">Logout</a></li>
 								</ul>
@@ -74,24 +75,24 @@
 
 
 	<div class="row">
-		<div class="col-2 box1">
+		<div class="col-4 col-md-3 col-xl-2 box1">
 			<div id="categ" class="row">
-				<div class="col-10 category">
+				<div class="col-12 category">
 					<li><a href="PresidentElection.html">President</a></li>
 				</div>
-				<div class="col-10 category">
+				<div class="col-12 category">
 					<li><a href="CollegeElection.html">College</a></li>
 				</div>
-				<div class="col-10 category">
+				<div class="col-12 category">
 					<li><a href="USSCRElection.html">USSCR</a></li>
 				</div>
-				<div class="col-10 category">
+				<div class="col-12 category">
 					<li><a href="ClassElection.html">Class</a></li>
 				</div>
 			</div>
 		</div>
 
-		<div class="col-10 box1">
+		<div class="col-8 col-md-9 col-xl-10 box1">
 			<form id="poll">
 				<div class="row">
 					<div class="col-2 candTitle">Picture</div>
@@ -102,15 +103,15 @@
 				<div class="row">
 					<div class="col-12 name">USSCR Category</div>
 				</div>
-				<div class="row">
-					<div class="col-2 candidate">Picture</div>
-					<div class="col-8 candidate">USSCR name</div>
-					<div class="col-2 candidate"><input type="checkbox" name="president" class="checkbox"></div>
+				<div class="row cut-line">
+					<div class="col-xl-2 col-sm-4 col-md-3 col-6 candidate">Picture</div>
+					<div class="col-xl-8 col-sm-5 col-md-7 col-6 candidate">Chauda, Andrew</div>
+					<div class="col-xl-2 col-sm-3 col-md-2 col-12 candidate"><input type="checkbox" name="president" class="checkbox"></div>
 				</div>  <!-- row -->
-				<div class="row">
-					<div class="col-2 candidate">Picture</div>
-					<div class="col-8 candidate">USSCR name</div>
-					<div class="col-2 candidate"><input type="checkbox" name="president" class="checkbox"></div>
+				<div class="row cut-line">
+					<div class="col-xl-2 col-sm-4 col-md-3 col-6 candidate">Picture</div>
+					<div class="col-xl-8 col-sm-5 col-md-7 col-6 candidate">Tlem, Emanuel P.</div>
+					<div class="col-xl-2 col-sm-3 col-md-2 col-12 candidate"><input type="checkbox" name="president" class="checkbox"></div>
 				</div>  <!-- row -->
 				<!-- <div class="row">
 					<div class="col-2 candidate">Picture</div>
@@ -121,20 +122,26 @@
 				<div class="row">
 					<div class="col-12 name">USSCR Special Seat Category</div>
 				</div>
-				<div class="row">
-					<div class="col-2 candidate">Picture</div>
-					<div class="col-8 candidate">Special seat name</div>
-					<div class="col-2 candidate"><input type="checkbox" name="vicePresident" class="checkbox"></div>
+				<div class="row cut-line">
+					<div class="col-xl-2 col-sm-4 col-md-3 col-6 candidate">Picture</div>
+					<div class="col-xl-8 col-sm-5 col-md-7 col-6 candidate">Suleiman, Mwanahamisi</div>
+					<div class="col-xl-2 col-sm-3 col-md-2 col-12 candidate"><input type="checkbox" name="vicePresident" class="checkbox"></div>
 				</div>  <!-- row -->
-				<div class="row">
-					<div class="col-2 candidate">Picture</div>
-					<div class="col-8 candidate">Special seat name</div>
-					<div class="col-2 candidate"><input type="checkbox" name="vicePresident" class="checkbox"></div>
+				<div class="row cut-line">
+					<div class="col-xl-2 col-sm-4 col-md-3 col-6 candidate">Picture</div>
+					<div class="col-xl-8 col-sm-5 col-md-7 col-6 candidate">Mussa Subira</div>
+					<div class="col-xl-2 col-sm-3 col-md-2 col-12 candidate"><input type="checkbox" name="vicePresident" class="checkbox"></div>
 				</div>  <!-- row -->
 				<div class="row">
 					<div class="col vote"><input type="Submit" id="vote" name="" value="Vote Now"></div>
 				</div>
 			</form>
+		</div>
+	</div>
+
+	<div class="row footer col-10 offset-1">
+		<div class="col-10 offset-1">
+			<h2>Copyright &copy2019 ODVS</h2>
 		</div>
 	</div>
 </body>
