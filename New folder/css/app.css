@@ -213,7 +213,7 @@ img{
 .input {
 	margin: 25px 0 25px 0;
 	height: 50px;
-	width: 60%;
+	/*width: 250px;*/
 	font-size:25px;
 	background:yellow;
 	/*border: none;*/
@@ -257,7 +257,7 @@ img{
 
 #loginbutton {
 	height: 50px;
-	width: 60%;
+	/*width: 250px;*/
 	font-size: 25px;
 	background-color: purple;
 	color: black;
@@ -284,7 +284,10 @@ img{
 
 .batani {
 	cursor: pointer;
+	width: 250px;
 }
+
+
 
 #logintitle {
 	background-color: brown;
